@@ -18,6 +18,13 @@ By Elisabeth Sykorova
 -	Records changes to the repository (=snapshot/backup)  
 -	Format: git commit -m “comment”
 -	To enter editor mode for multiline comments -> git commit
+ 
+5.	Remote
+-	Manages set of tracked repositories, clone repositories
+ 
+-	Format: git remote …
+-	Different uses -> add, rename, remove,..
+
 
 
 
