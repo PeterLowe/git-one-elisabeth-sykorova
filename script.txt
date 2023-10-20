@@ -2,21 +2,22 @@ Git guide
 By Elisabeth Sykorova
 
 1.	Init
--	Creates a new repository locally
- 
+-	Creates a new repository locally 
 -	Format: git init
  
 2.	Add
--	Adds all new files (also edited files)
- 
+-	Adds all new files (also edited files) 
 -	Format: git add .
 -	To add specific files -> git add filename/pattern
  
 3.	Status
--	Lists files modified in the working area, added files in staging area and current branch
- 
- 
+-	Lists files modified in the working area, added files in staging area and current branch  
 -	Format: git status
+ 
+4.	Commit
+-	Records changes to the repository (=snapshot/backup)  
+-	Format: git commit -m “comment”
+-	To enter editor mode for multiline comments -> git commit
 
 
 
