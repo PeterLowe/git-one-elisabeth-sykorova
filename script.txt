@@ -1,2 +1,8 @@
 Git guide
-by Elisabeth Sykorova
+By Elisabeth Sykorova
+
+1.	Init
+-	Creates a new repository locally
+ 
+-	Format: git init
+
