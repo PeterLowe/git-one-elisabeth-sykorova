@@ -11,5 +11,12 @@ By Elisabeth Sykorova
  
 -	Format: git add .
 -	To add specific files -> git add filename/pattern
+ 
+3.	Status
+-	Lists files modified in the working area, added files in staging area and current branch
+ 
+ 
+-	Format: git status
+
 
 
