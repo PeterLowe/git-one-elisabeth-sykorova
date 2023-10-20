@@ -5,4 +5,11 @@ By Elisabeth Sykorova
 -	Creates a new repository locally
  
 -	Format: git init
+ 
+2.	Add
+-	Adds all new files (also edited files)
+ 
+-	Format: git add .
+-	To add specific files -> git add filename/pattern
+
 
