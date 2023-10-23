@@ -29,3 +29,9 @@ By Elisabeth Sykorova
 -	Used to update remote node with current node
  
 -	Format: git push -u origin master (depending on what the branch name changes to)
+ 
+7.	Branch
+-	Used to create a new branch in the local repository that can be worked on separately from the main branch and later merged.
+ 
+-	Format: git branch new_branch_name
+-	To list all branches in repository: git branch -a/-l/-r
