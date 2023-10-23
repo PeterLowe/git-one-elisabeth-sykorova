@@ -23,5 +23,9 @@ By Elisabeth Sykorova
 -	Manages set of tracked repositories, used to clone repositories
  
 -	Format: git remote …
--	Different uses -> add, rename, remove,.. 
+-	Different uses -> add, rename, remove,..
+ 
 6.	Push
+-	Used to update remote node with current node
+ 
+-	Format: git push -u origin master (depending on what the branch name changes to)
