@@ -2,11 +2,12 @@ Git Guide
 By Elisabeth Sykorova
 
 1.	Init
--	Creates a new repository locally 
+-	Creates a new empty repository locally (.git). An initial branch without any commits will be created. 
 -	Format: git init
  
 2.	Add
--	Adds all new files (also edited files) 
+-	Used to update the index using the current content found in the working tree. It prepares the content staged for the next commit. It can either add all files in the path or specifically chosen files. Can be performed multiple times before commit.
+ 
 -	Format: git add .
 -	To add specific files -> git add filename/pattern
  
@@ -15,41 +16,41 @@ By Elisabeth Sykorova
 -	Format: git status
  
 4.	Commit
--	Records changes to the repository (=snapshot/backup)  
+-	Records changes to the repository (=snapshot/backup). Creates a new commit containing the current contents of the index (created by add) and the given log message describing the changes (comments in “”). 
 -	Format: git commit -m “comment”
 -	To enter editor mode for multiline comments -> git commit
  
 5.	Remote
--	Manages set of tracked repositories, used to clone repositories
+-	Manages set of tracked repositories, used to clone repositories. Includes many different commands.
  
 -	Format: git remote …
--	Different uses -> add, rename, remove,..
+-	Different uses -> add, rename, remove, set-head, set-branches,..
  
 6.	Push
--	Used to update remote node with current node
+-	Used to upload local commits to a remote.
  
 -	Format: git push -u origin master (depending on what the branch name changes to)
  
 7.	Branch
--	Used to create a new branch in the local repository that can be worked on separately from the main branch and later merged.
+-	Used to list, create, or delete branches. Creates a new branch in the local repository that can be worked on separately from the main branch and later merged.
  
 -	Format: git branch new_branch_name
 -	To list all branches in repository: git branch -a/-l/-r
  
 8.	Checkout
--	Makes chosen node the current HEAD
+-	Makes chosen node the current HEAD – switches branches or restores working tree files. Updates files in the working tree to match the version in the index or the specified tree.
  
  
--	Format: git checkout branch_name
+-	Format: git checkout branch_name/commit_name
  
 9.	Merge
--	Used to merge target branch into current branch. To update main branch you have to first switch into it.
+-	Used to merge target branch into current branch (allows to join two or more development branches together). To update main branch, you have to first switch into it.
  
 -	Format: git merge branch_name (of a branch that is the further one)
 -	To merge head with master -> git merge master
  
 10.	Log
--	Shows the history of commits in the terminal, can be altered using special arguments.
+-	Shows the history of reachable commits in the terminal, can be altered using special arguments.
  
  
 -	Format: git log
