@@ -35,3 +35,10 @@ By Elisabeth Sykorova
  
 -	Format: git branch new_branch_name
 -	To list all branches in repository: git branch -a/-l/-r
+ 
+8.	Checkout
+-	Makes chosen node the current HEAD
+ 
+ 
+-	Format: git checkout branch_name
+
