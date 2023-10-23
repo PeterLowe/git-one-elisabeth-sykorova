@@ -1,4 +1,4 @@
-Git guide
+Git Guide
 By Elisabeth Sykorova
 
 1.	Init
@@ -20,11 +20,8 @@ By Elisabeth Sykorova
 -	To enter editor mode for multiline comments -> git commit
  
 5.	Remote
--	Manages set of tracked repositories, clone repositories
+-	Manages set of tracked repositories, used to clone repositories
  
 -	Format: git remote …
--	Different uses -> add, rename, remove,..
-
-
-
-
+-	Different uses -> add, rename, remove,.. 
+6.	Push
