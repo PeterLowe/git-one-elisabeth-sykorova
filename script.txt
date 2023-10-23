@@ -47,5 +47,12 @@ By Elisabeth Sykorova
  
 -	Format: git merge branch_name (of a branch that is the further one)
 -	To merge head with master -> git merge master
-
-
+ 
+10.	Log
+-	Shows the history of commits in the terminal, can be altered using special arguments.
+ 
+ 
+-	Format: git log
+-	Controlled by <space> or arrows to scroll, <q> to quit
+-	Altered files and the number of changed lines -> git log --stat
+-	Drawn branch paths -> git log --graph
