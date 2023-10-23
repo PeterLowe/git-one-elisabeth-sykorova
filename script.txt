@@ -41,4 +41,11 @@ By Elisabeth Sykorova
  
  
 -	Format: git checkout branch_name
+ 
+9.	Merge
+-	Used to merge target branch into current branch. To update main branch you have to first switch into it.
+ 
+-	Format: git merge branch_name (of a branch that is the further one)
+-	To merge head with master -> git merge master
+
 
